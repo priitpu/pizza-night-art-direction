@@ -22,6 +22,7 @@ main {
 footer {
   height: 144px;
   transition: background-color 0.3s linear;
+  margin-top: auto;
 }
 
 @media (prefers-color-scheme: dark) {
