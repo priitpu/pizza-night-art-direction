@@ -4,18 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>light-dark</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <picture>
-      <source
-        media="(prefers-color-scheme: dark)"
-        srcset="./images/prefers-color/dark.jpg"
-      />
-      <source
-        media="(prefers-color-scheme: light)"
-        srcset="./images/prefers-color/light.jpg"
-      />
-      <img src="./images/prefers-color/light.jpg" />
-    </picture>
+    <header></header>
+    <main>
+      <picture>
+        <source
+          media="(prefers-color-scheme: dark)"
+          srcset="./images/prefers-color/dark.jpg"
+        />
+        <source
+          media="(prefers-color-scheme: light)"
+          srcset="./images/prefers-color/light.jpg"
+        />
+        <img src="./images/prefers-color/light.jpg" />
+      </picture>
+    </main>
+    <footer></footer>
   </body>
 </html>
