@@ -3,7 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Art Direction</title>
+    <title>light-dark</title>
   </head>
-  <body></body>
+  <body>
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./images/dark.jpg" />
+      <source
+        media="(prefers-color-scheme: light)"
+        srcset="./images/light.jpg"
+      />
+      <img src="./images/light.jpg" />
+    </picture>
+  </body>
 </html>
