@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 header {
   height: 72px;
   transition: background-color 0.3s linear;
@@ -20,7 +25,7 @@ footer {
 
 @media (prefers-color-scheme: dark) {
   header {
-    background-color: #003662;
+    background-color: #454854;
   }
   body {
     background-color: #333;
