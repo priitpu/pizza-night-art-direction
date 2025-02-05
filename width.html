@@ -3,7 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Art Direction</title>
+    <title>light-dark</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <header></header>
+    <main>
+      <picture>
+        <source media="(min-width: 768px)" srcset="./images/width/a.webp" />
+        <source media="(max-width: 767px)" srcset="./images/width/b.jpg" />
+        <img src="./images/width/a.webp" />
+      </picture>
+    </main>
+    <footer></footer>
+  </body>
 </html>
