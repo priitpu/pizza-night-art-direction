@@ -3,7 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Art Direction</title>
+    <title>srcset</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <header></header>
+    <main>
+      <img
+        srcset="
+          ./images/srcset/5pc.jpg    320w,
+          ./images/srcset/20pc.jpg   480w,
+          ./images/srcset/50pc.jpg   640w,
+          ./images/srcset/80pc.jpg   768w,
+          ./images/srcset/100pc.jpg 1024w,
+          ./images/srcset/150pc.jpg 1280w
+        "
+        height="500px"
+        width="auto"
+      />
+    </main>
+    <footer></footer>
+  </body>
 </html>
